@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="3" http-equiv="refresh"/>
+  <title>
+   BGMI Tournament Standings
+  </title>
+  <style>
+   /* Import Bebas Neue font from Google Fonts */
+   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+   body {
+            font-family: 'Bebas Neue', sans-serif;
+            background-color: #282c34; /* Or transparent */
+            /* background: transparent; */
+            color: white;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+      }
+      table {
+            border-collapse: collapse;
+            font-size: 16px; /* Reduced size */
+            margin: 0;
+      }
+      th, td {
+            padding: 4px 10px; /* Reduced padding */
+            text-align: center;
+            border: 1px solid #444;
+            white-space: nowrap;
+      }
+      th {
+            background-color: #1a1c20;
+            color: #61dafb;
+            font-weight: normal;
+            padding-top: 5px;   /* Reduced header padding */
+            padding-bottom: 5px;
+      }
+      tr:nth-child(even) {
+            background-color: #3a3f4a;
+      }
+      td:last-child { /* Status column */
+        font-family: sans-serif;
+        font-size: 14px;
+      }
+  </style>
+ </head>
+ <body>
+  <table border="1">
+   <thead>
+    <tr>
+     <th>
+      #
+     </th>
+     <th>
+      Team
+     </th>
+     <th>
+      Points
+     </th>
+     <th>
+      Status
+     </th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+     <td>
+      1
+     </td>
+     <td>
+      GodLike
+     </td>
+     <td>
+      10
+     </td>
+     <td>
+      🟩🟩🟩🟩
+     </td>
+    </tr>
+   </tbody>
+  </table>
+ </body>
+</html>
